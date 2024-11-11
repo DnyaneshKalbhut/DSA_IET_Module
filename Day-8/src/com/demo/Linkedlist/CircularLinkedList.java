@@ -54,9 +54,24 @@ public class CircularLinkedList {
 					newnode.next=temp.next;
 					temp.next=newnode;
 				}else {
-					System.out.println("Position is out of beyond limit");
+					System.out.println("out of bound error");
 				}
 			}
 		}
-	}    
+	}
+	
+	public void displaydata() {
+		if(head==null)
+			System.out.println("list is empty");
+		else {
+			Node temp=head;
+			while(temp.next!=head) {
+				System.out.println(temp.data);
+				temp=temp.next;
+			}
+			System.out.println(temp.data);
+			System.out.println("-------end-------");
+		}
+		
+	}
 }

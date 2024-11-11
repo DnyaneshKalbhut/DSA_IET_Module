@@ -8,8 +8,7 @@ public class SinglyLinklist {
 			super();
 			this.data = data;
 			this.next=null;
-		}
-		
+		}	
 	}
       Node head;
 	public SinglyLinklist() {
@@ -68,13 +67,12 @@ public class SinglyLinklist {
 		      
 		      
 		      if(temp!=null) {
-		    	  node.next=temp.next.next;
+		    	  node.next=temp.next;
 		    	  temp.next=node;
 		      
 		      }
-		      }
+		    }
 	      }
-	
       
            public void deleteByPosition(int pos) {
        		if(head==null) {
@@ -126,8 +124,8 @@ public class SinglyLinklist {
             }  
           }
        }
-	
-	
+
+           
 	  public void Display() {
 		  Node temp =head;
 		  while( temp!=null ) {

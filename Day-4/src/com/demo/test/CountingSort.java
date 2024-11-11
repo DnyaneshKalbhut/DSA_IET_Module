@@ -23,12 +23,15 @@ public class CountingSort {
 		}
 	
 		int[] countArr = new int[max+1];
+		
 		for(int i = 0; i<arr.length; i++) {
 			countArr[arr[i]]++;
 		}
+		
 		 for(int i = 1; i < countArr.length; i++) {
-	            countArr[i] += countArr[i - 1];
-	        }
+	        countArr[i] += countArr[i - 1];
+	       }
+		 
 	    int[] outputArr = new int[arr.length];
 	     for (int i = arr.length - 1; i >= 0; i--) {
 	            int val = arr[i];

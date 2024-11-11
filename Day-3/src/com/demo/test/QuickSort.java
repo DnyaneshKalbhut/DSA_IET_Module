@@ -29,15 +29,12 @@ public static void quickSort(int[] arr , int start , int last) {
 				arr[i]=arr[j];
 				arr[j]=temp;
 			}			
-		}
+		} 
 		int temp = arr[j];
 		arr[j]=arr[pivot];
 		arr[pivot]=temp;
 		quickSort(arr,start,j-1);
 		quickSort(arr,j+1,last);
 	}
-	
-	}
-
-
+  }
 }

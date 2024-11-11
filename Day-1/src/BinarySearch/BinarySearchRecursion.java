@@ -10,13 +10,11 @@ public class BinarySearchRecursion {
 		
 		System.out.println(target);
 	}
-
 	private static int BinarySearchRec(int[] arr,int tar , int start , int end) {
 		if (start > end) {
 	        return -1;
 	    }
-		   int mid = (start+end)/2;
-		   
+		   int mid = (start+end)/2;	   
 		   if(arr[mid]==tar) {
 			   return mid;
 		   }else if(arr[mid]>tar) {
@@ -24,7 +22,5 @@ public class BinarySearchRecursion {
 		   }else {
 			  return BinarySearchRec(arr, tar, mid+1, end);
 		   }
-		   
 	}
-
 }

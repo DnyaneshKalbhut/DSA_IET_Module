@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="ArrayServices"/>
+    <fullyQualifiedTypeName name="SinglyLinklist.SinglyLinklist"/>
+    <fullyQualifiedTypeName name="SinglyLinklist.SinglyLinklist.Node"/>
+    <fullyQualifiedTypeName name="com.demo.linkedlist.EmployeeLinkedList"/>
+    <fullyQualifiedTypeName name="com.demo.beans.Employee"/>
+    <fullyQualifiedTypeName name="com.demo.Linkedlist.DoublyLinkedList"/>
+    <fullyQualifiedTypeName name="com.demo.stack.MyStack"/>
+    <fullyQualifiedTypeName name="com.demo.queue.MyQueue"/>
+    <fullyQualifiedTypeName name="com.demo.queue.MyCircularQueue"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.demo.queue.CustomerCircularQueue"/>
+    <fullyQualifiedTypeName name="com.demo.beans.Customer"/>
+    <fullyQualifiedTypeName name="com.demo.hashing.MyHashingLinkList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.demo.stack.MyListStack"/>
+    <fullyQualifiedTypeName name="com.demo.Linkedlist.CircularLinkedList"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.demo.Linkedlist.DublycircularLinkedList"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
