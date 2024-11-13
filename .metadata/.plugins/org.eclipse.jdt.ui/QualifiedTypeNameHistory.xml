@@ -19,4 +19,5 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.demo.Linkedlist.DublycircularLinkedList"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.demo.trees.BinarySearchTree"/>
 </qualifiedTypeNameHistroy>
